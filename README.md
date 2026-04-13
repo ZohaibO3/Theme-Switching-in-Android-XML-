@@ -1,6 +1,6 @@
-# ThemeDemoApp
+# Theme Switching in Android (XML)
 
-ThemeDemoApp is a demonstration Android application that showcases how to implement dynamic theme switching (including light and dark modes for different color schemes) and persist the user's preference.
+Theme Switching in Android (XML) is a demonstration Android application that showcases how to implement dynamic theme switching (including light and dark modes for different color schemes) and persist the user's preference.
 
 ## Features
 
