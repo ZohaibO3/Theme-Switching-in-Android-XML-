@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Theme Switching in Android (XML)</string>
+    <string name="title">Theme Switching in Android (XML)</string>
+    <string name="change_theme">Change Theme</string>
+</resources>

@@ -1,0 +1,56 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ThemeDemoApp" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.ThemeDemoApp" parent="Base.Theme.ThemeDemoApp" />
+
+    <style name="Theme.Blue" parent="Base.Theme.ThemeDemoApp">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue_variant</item>
+        <item name="colorText">@color/black</item>
+        <item name="colorIcon">@color/blue</item>
+        <item name="colorBackground">@color/white</item>
+    </style>
+
+    <style name="Theme.Blue.Dark" parent="Base.Theme.ThemeDemoApp">
+        <item name="colorPrimary">@color/blue_dark</item>
+        <item name="colorPrimaryVariant">@color/blue_variant_dark</item>
+        <item name="colorText">@color/white</item>
+        <item name="colorIcon">@color/blue_dark</item>
+        <item name="colorBackground">@color/black</item>
+    </style>
+
+    <style name="Theme.Green" parent="Base.Theme.ThemeDemoApp">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green_variant</item>
+        <item name="colorText">@color/black</item>
+        <item name="colorIcon">@color/green</item>
+        <item name="colorBackground">@color/white</item>
+    </style>
+
+    <style name="Theme.Green.Dark" parent="Base.Theme.ThemeDemoApp">
+        <item name="colorPrimary">@color/green_dark</item>
+        <item name="colorPrimaryVariant">@color/green_variant_dark</item>
+        <item name="colorText">@color/white</item>
+        <item name="colorIcon">@color/green_dark</item>
+        <item name="colorBackground">@color/black</item>
+    </style>
+
+    <color name="blue">#2196F3</color>
+    <color name="blue_variant">#034F8B</color>
+    <color name="blue_dark">#2196F3</color>
+    <color name="blue_variant_dark">#000000</color>
+    <color name="green">#4CAF50</color>
+    <color name="green_variant">#055C08</color>
+    <color name="green_dark">#4CAF50</color>
+    <color name="green_variant_dark">#000000</color>
+
+    <attr name="colorText" format="reference"/>
+    <attr name="colorIcon" format="reference"/>
+    <attr name="colorBackground" format="reference"/>
+<!--    <attr name="colorPrimaryVariant" format="reference"/>-->
+</resources>
